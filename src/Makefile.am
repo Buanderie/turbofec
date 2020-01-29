@@ -1,4 +1,4 @@
-AM_CFLAGS = -Wall -march=native -fvisibility=hidden -I$(top_srcdir)/include
+AM_CFLAGS = -std=c11 -Wall -fvisibility=hidden -I$(top_srcdir)/include -I$(top_srcdir)/simde
 
 lib_LTLIBRARIES = libturbofec.la
 
